@@ -1,0 +1,50 @@
+body{
+	background: url(fon.png); margin: 0; padding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif; color: #272727;}
+a{text-decoration: none;}
+/*структура сайта*/
+div.mid{width: 1000px; margin: 0 auto;}
+div.header{background: #000000;}
+div.footer{margin: 20px 0; text-align: center;text-transform: uppercase;}
+
+/*Щапка сайта*/
+div.topmenu{float: right; height: 80px; line-height: 80px;}
+div.topmenu a{margin: 0 0 0 10px; color: #1683a3;}
+div.topmenu a:hover{color: #fff;}
+div.afisha{padding: 20px 50px 0 50px;background: #FFFFFF url(images/headline.png) top repeat-x;}
+div.afisha img{float:left;}
+div.afisha h3{font-size: 24px; font-weight: normal; text-align: center; color: #830000;}
+
+/*Главное меню*/
+div.menu{background: #1683a3; border: 1px solid #016c8b; border-left: none;border-right: none;}
+div.menu ul{margin: 0; padding: 0; list-style: none; text-align: center;}
+div.menu ul li{display: inline-block; margin: 5px 40px;}
+div.menu ul li a {color: #fff; text-transform: uppercase; text-shadow: 1px 1px 3px #0b4455;}
+div.menu ul li a:hover {color: #a3e1f3; }
+
+/* Контент сайта*/
+div.fon {background: #fff; border: 1px solid #ccc; border-top: none; padding: 40px;}
+div.fon div.clear {border-bottom: 1px dashed #ccc;}
+div.block{width: 440px; float: left; margin-bottom: 40px;}
+div.block:nth-of-type(even){float: right;}
+div.anons{background: #f5f5f5; border: 1px solid #ccc; border-radius: 3px; padding: 20px;}
+div.anons img{box-shadow: 1px 1px 5px #777;}
+div.anons h3{font-size: 20px; font-weight: normal; margin: 20px 0 10px; padding: 0; color: #01617d;
+line-height: 20px;}
+div.anons p{text-shadow: 1px 1px 0 #fff;}
+
+/*Мои годы ебли*/
+div.bl{width: 920px; margin-bottom: 40px;}
+div.ann{background: #f5f5f5; border: 1px solid #ccc; border-radius: 3px; padding: 60px; text-align: center;}
+div.ann img{box-shadow: 1px 1px 5px #777;}
+div.ann h3{font-size: 20px; font-weight: normal; margin: 20px 0 10px; padding: 0; color: #01617d;
+line-height: 20px;}
+div.ann p{text-shadow: 1px 1px 0 #fff;}
+div.bl{margin: 40px 0;}
+div.rek{margin: 60px;}
+div.rek img{border: 1px solid #ccc; border-radius: 3px;}
+
+/*Подвал*/
+div.footer span {margin: 0 20px;}
+
+div.clear{clear:both;}
